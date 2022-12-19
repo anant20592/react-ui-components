@@ -1,0 +1,41 @@
+.rui-dropdown-container {
+    width: fit-content;
+    position: relative;
+}
+
+.rui-dropdown-toggle {
+    display: flex;
+    background-color: blue;
+    color: #fff;
+    width: fit-content;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.rui-dropdown-label {
+    border-right: 1px solid lightgray;
+    padding: 0.5rem 1rem;
+}
+
+.rui-dropdown-list {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: max-content;
+    min-width: 100px;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    position: absolute;
+    background-color: lightgrey;
+    top: 22px;
+    z-index: 1;
+    opacity: 1;
+    .item {
+        cursor: pointer;
+        padding: 0.3rem 0.3rem;
+    }
+    display: none;
+}
+
+.rui-dropdown-list.show {
+    display: block;
+}

@@ -1,0 +1,44 @@
+.accordion {
+    height: 50px;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.37rem;
+}
+
+.rui-accordion-item:first-of-type {
+    border-top-left-radius: 0.37rem;
+    border-top-right-radius: 0.37rem;
+}
+
+.rui-accordion-item {
+    border: 1px solid #dee2e6;
+}
+
+.rui-accordion-header{
+    margin-top: 0;
+    margin-bottom: 0;
+    button{
+        background-color: #e7f1ff;
+        color: #0c63e4;
+        padding: 1rem 0.5rem;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        border: 0;
+    }
+    
+}
+
+
+.rui-accordion-body {
+    padding: 0.5rem;
+}
+
+.rui-accordion-collapse {
+    display: none;
+}
+
+.rui-accordion-collapse.show {
+    display: block;
+}

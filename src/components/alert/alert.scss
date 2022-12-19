@@ -1,0 +1,36 @@
+$rui-alert-color-success: #0f5132;
+$rui-alert-bg-success: #d1e7dd;;
+$rui-alert-border-color-success: #badbcc;
+
+$rui-alert-color-error: #842029;
+$rui-alert-bg-error: #f8d7da;
+$rui-alert-border-color-error: #f5c2c7;
+
+$rui-alert-color-warn: #664d03;
+$rui-alert-bg-warn: #fff3cd;
+$rui-alert-border-color-warn: #ffecb5;
+
+.rui-alert-container {
+    border: 1px solid;
+    border-radius: 0.375rem;
+    padding: 1rem 1rem;
+    position: relative;
+}
+
+.success {
+    background-color: $rui-alert-bg-success;
+    border-color: $rui-alert-border-color-success;
+    color: $rui-alert-color-success;
+}
+
+.warn {
+    color: $rui-alert-color-warn;
+    background-color: $rui-alert-bg-warn;
+    border-color: $rui-alert-border-color-warn;
+}
+
+.error {
+    color: $rui-alert-color-error;
+    background-color: $rui-alert-bg-error;
+    border-color: $rui-alert-border-color-error;
+}
