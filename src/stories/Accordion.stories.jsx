@@ -5,7 +5,7 @@ import AccordionHeader from '../components/accordion/AccordionHeader';
 import AccordionItem from '../components/accordion/AccordionItem';
 
 export default {
-    title: 'Example/Accordion',
+    title: 'Base/Accordion',
     component: Accordion,
     //subcomponents: {Link}
   };

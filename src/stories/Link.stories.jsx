@@ -1,7 +1,7 @@
 import Link from '../components/link/Link';
 
 export default {
-    title: 'Example/Link',
+    title: 'Base/Link',
     component: Link
 }
 const Template = (args) => <Link {...args} />

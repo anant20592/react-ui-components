@@ -1,6 +1,5 @@
 import classNames from "classnames";
 import React, {useMemo, useState} from "react";
-import "./accordion.scss";
 import PropType from 'prop-types';
 import AccordionButton from "./AccordionButton";
 import AccordionHeader from "./AccordionHeader";

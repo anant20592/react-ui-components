@@ -1,7 +1,7 @@
 import Dropdown from "../components/dropdown/Dropdown";
 
 export default {
-    title: 'Example/Dropdown',
+    title: 'Base/Dropdown',
     component: Dropdown
 }
 

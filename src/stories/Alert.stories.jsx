@@ -1,7 +1,7 @@
 import Alert from '../components/alert/Alert';
 import {Link} from '../components/alert/Alert';
 export default {
-    title: 'Example/Alert',
+    title: 'Base/Alert',
     component: Alert,
     subcomponents: {Link}
   };

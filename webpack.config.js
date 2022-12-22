@@ -30,17 +30,17 @@ module.exports = {
     module: {
         rules:  [
             {
-                test: /\.(js|jsx)$/,
+                test: /\.(ts|tsx)$/,
                 exclude: /node_modules/,
                 loader: require.resolve("babel-loader")
             },
-            // {
-            //     test: /\.(js|jsx)$/,
-            //     loader: "ts-loader",
-            //     options: {
-            //         transpileOnly: true
-            //       }
-            // },
+            {
+                test: /\.(ts|tsx)$/,
+                loader: "ts-loader",
+                options: {
+                    transpileOnly: true
+                  }
+            },
             {
                 test: /\.(jpg|png|svg)$/,
                 use: {

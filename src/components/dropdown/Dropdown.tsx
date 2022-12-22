@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import "./dropdown.scss";
 import DropdownItem from "./DropdownItem";
 import DropdownMenu from "./DropdownMenu";
 import DropdownToggle from "./DropdownToggle";
