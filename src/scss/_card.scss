@@ -6,6 +6,7 @@
     --#{$prefix}card-height: #{$card-height};
     --#{$prefix}card-border-width: #{$card-border-width};
     --#{$prefix}card-bg: #{$card-bg};
+    --#{$prefix}card-cap-bg: #{$card-cap-bg};
     --#{$prefix}card-box-shadow: #{$card-box-shadow};
     --#{$prefix}card-border-color: #{$card-border-color};
     --#{$prefix}card-border-radius: #{$card-border-radius};
@@ -29,4 +30,16 @@
 
 .card-title {
     margin-bottom: var(--rui-card-title-spacer-y);
+}
+
+.card-header:first-child {
+    border-radius: calc(0.375rem - 1px) calc(0.375rem - 1px) 0 0;
+}
+
+.card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    //color: var(--bs-card-cap-color);
+    background-color: var(--rui-card-cap-bg);
+    border-bottom: var(--rui-card-border-width) solid var(--rui-card-border-color);
 }

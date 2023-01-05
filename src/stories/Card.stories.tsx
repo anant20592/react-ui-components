@@ -36,3 +36,30 @@ CardWithImage.args = {
     </>
   ),
 };
+
+export const CardWithHeader = Template.bind({});
+CardWithHeader.args = {
+  children: (
+    <>
+      <Card.Header>This is a card header.</Card.Header>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>Some quick example text to build on
+        the card title and make up the bulk of the card's content.
+      </Card.Body>
+    </>
+  ),
+};
+
+export const CardWithTextAlign = Template.bind({});
+CardWithTextAlign.args = {
+  children: (
+    <>
+      <Card.Header>This is a card header.</Card.Header>
+      <Card.Body>
+        <Card.Title>Card Title</Card.Title>Some quick example text to build on
+        the card title and make up the bulk of the card's content.
+      </Card.Body>
+    </>
+  ),
+  className: "text-center",
+};
